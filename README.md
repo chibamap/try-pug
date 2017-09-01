@@ -37,7 +37,7 @@ brew install nodebrew
 mkdir -p ~/.nodebrew/src
 echo 'export PATH=$HOME/.nodebrew/current/bin:$PATH' >> ~/.bash_profile
 source ~/.bash_profile
-nodebrew install-binary stable
+sudo nodebrew install-binary stable
 ```
 
 ### npm パッケージたち
