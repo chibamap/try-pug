@@ -19,14 +19,37 @@ nodeのバージョン管理の[nodebrew](https://github.com/hokaccha/nodebrew)�
 - Homebrew
 - nodebrw
 - node (npmもセットです)
-- pug
-- webpack
 
 
-## webpack
+### Hoebrew
 
+[https://brew.sh/index_ja.html](https://brew.sh/index_ja.html)
 
-npm i で勝手に入る
+```
+/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+```
+### nodebrew & node
+
+[https://github.com/hokaccha/nodebrew](https://github.com/hokaccha/nodebrew)
+
+```
+brew install nodebrew
+nodebrew install-binary stable
+```
+
+### npm パッケージたち
+
+```
+git clone git@github.com:hogehoge-banana/try-pug.git
+npm i
+```
 
 
 ## run
+
+```
+npm start
+```
+
+- `http://localhost:8080` にアクセスする
+- ドヤ顔
