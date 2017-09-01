@@ -38,6 +38,7 @@ mkdir -p ~/.nodebrew/src
 echo 'export PATH=$HOME/.nodebrew/current/bin:$PATH' >> ~/.bash_profile
 source ~/.bash_profile
 sudo nodebrew install-binary stable
+nodebrew use v8.4.0
 ```
 
 ### npm パッケージたち
