@@ -44,7 +44,7 @@ nodebrew use v8.4.0
 ### npm パッケージたち
 
 ```
-git clone git@github.com:hogehoge-banana/try-pug.git
+git clone https://github.com/hogehoge-banana/try-pug.git
 cd try-pug
 npm i
 ```
