@@ -44,6 +44,7 @@ sudo nodebrew install-binary stable
 
 ```
 git clone git@github.com:hogehoge-banana/try-pug.git
+cd try-pug
 npm i
 ```
 
